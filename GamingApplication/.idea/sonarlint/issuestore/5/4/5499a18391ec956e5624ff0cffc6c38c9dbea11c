@@ -1,0 +1,12 @@
+
+0
+java:S1220""Move this file to a named package.
+S	java:S106"9Replace this use of System.out or System.err by a logger.( ‡œŒÿÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(¦ÊéŠşÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(û¤Â¯
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(Ú÷Çøÿÿÿÿ
+W
+java:S1854="<Remove this useless assignment to local variable "gameList".(êê¼€ÿÿÿÿÿ
+H
+java:S1481="-Remove this unused "gameList" local variable.(êê¼€ÿÿÿÿÿ
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(Ú÷Çøÿÿÿÿ8éŒã„å0

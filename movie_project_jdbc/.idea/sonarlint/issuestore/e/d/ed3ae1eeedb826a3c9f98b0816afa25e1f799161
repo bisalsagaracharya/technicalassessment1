@@ -1,0 +1,26 @@
+
+`	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112«"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+k
+java:S1450("VRemove the "scanner" field and declare it as a local variable in the relevant methods.(­´ò
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+Q
+java:S2696,"6Make the enclosing method "static" or remove this set.(À’·êøÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(­èÀ¥
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(éÿ¦”
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¡²Ýðøÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(€Ïóð
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ÇÁ­Ãúÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(¿ÇÞ¼øÿÿÿÿ
+Q	java:S125F"<This block of commented-out lines of code should be removed.(†¨÷È
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(‡¤õÆ
+V	java:S125Q"<This block of commented-out lines of code should be removed.(ÚßÜƒúÿÿÿÿ
+h	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÓÙæýÿÿÿÿ
+c	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŽ®
+N
+java:S1135Š"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+N
+java:S1135ž"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ

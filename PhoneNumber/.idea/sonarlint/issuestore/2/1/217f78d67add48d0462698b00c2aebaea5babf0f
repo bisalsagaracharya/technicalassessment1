@@ -1,0 +1,12 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(–ã×øÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(–ã×øÿÿÿÿ
+`	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(ÄÅ›Ãúÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Â¦¿
+1
+java:S1700"Rename field "address"(÷§ùÿÿÿÿ
+œ
+java:S1598"€This file "Address.java" should be located in "com/glo/addressBook" directory, not in "/home/bisal.acharya/Desktop/PhoneNumber".(—¤ĞÇüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—¤ĞÇüÿÿÿÿ

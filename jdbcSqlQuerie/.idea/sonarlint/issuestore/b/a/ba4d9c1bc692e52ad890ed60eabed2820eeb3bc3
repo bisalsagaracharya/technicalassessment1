@@ -1,0 +1,5 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¯÷Úúÿÿÿÿ8™¾Þ”á0
+m	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„©¸®8™¾Þ”á0
+p	java:S116"ORename this field "MSRP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ä¿Åýÿÿÿÿ8¢¾Þ”á0
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(¸¯÷Úúÿÿÿÿ8ÚÞß”á0

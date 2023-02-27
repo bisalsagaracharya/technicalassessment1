@@ -1,0 +1,29 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡şÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕ
+g
+java:S1192"LDefine a constant instead of duplicating this literal "hackerearth" 5 times.( óã¾úÿÿÿÿ
+f
+java:S1192"KDefine a constant instead of duplicating this literal "1234567890" 5 times.(œ¤«éûÿÿÿÿ
+Á
+java:S1598"This file "AddressBookTestSample.java" should be located in "com/glo/addressBook" directory, not in "/home/globallogic/Documents/Assignments/AddressBookTest".(—¤ĞÇüÿÿÿÿ8Åõ¥Ü0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—¤ĞÇüÿÿÿÿ8Åõ¥Ü0
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ëô¡şÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«¤ÜÕ
+P	java:S125"<This block of commented-out lines of code should be removed.(±€§
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+C	java:S1082")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+C	java:S1089")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+C	java:S108@")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+C	java:S108G")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+C	java:S108N")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+Q	java:S125S"<This block of commented-out lines of code should be removed.(çªÛ
+C	java:S108V")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(Õİ¯ºøÿÿÿÿ
+C	java:S108^")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+v
+java:S1128	"TRemove this unnecessary import: same package classes are always implicitly imported.(¬˜¾øüÿÿÿÿ8§Åõ¥Ü0
+A
+java:S5960"+Remove this assertion from production code.(Ã™ÕÖ

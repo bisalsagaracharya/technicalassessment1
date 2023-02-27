@@ -1,0 +1,20 @@
+
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ø¸¦Ã
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(—Ã²˜
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+g	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(ûƒíµşÿÿÿÿ8³Õ­Ü0
+ƒ
+java:S1488)"hImmediately return this expression instead of assigning it to the temporary variable "searchedWithName".(íŠ§‚ÿÿÿÿÿ
+}
+java:S14881"gImmediately return this expression instead of assigning it to the temporary variable "searchedWithOrg".(“¢…É
+°
+java:S1598"”This file "AddressBook.java" should be located in "com/glo/addressBook" directory, not in "/home/globallogic/Documents/Assignments/AddressBookTest".(—¤ĞÇüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—¤ĞÇüÿÿÿÿ
+m
+java:S6204*"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Îù·ãşÿÿÿÿ
+‡
+java:S1130."lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ûƒíµşÿÿÿÿ
+m
+java:S62042"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÜÔ¹êùÿÿÿÿ
