@@ -1,9 +1,0 @@
-
-H
-java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
-Q
-java:S6437"6Revoke and change this password, as it is compromised.(éœÑ’ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ô×ŠÖøÿÿÿÿ
-H
-java:S6126"2Replace this String concatenation with Text block.(ç‰î
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ø›­‰8ÁÑ„®á0

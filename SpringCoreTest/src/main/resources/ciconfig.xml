@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<bean class="com.springcore.ci.Address" name="address">
+ <constructor-arg value="1010" type="long" />
+<constructor-arg value="Sampatia" />
+<constructor-arg value="Baleswar" /> 
+</bean>
+
+<bean class="com.springcore.ci.Address" name="address1">
+ <constructor-arg value="2020" type="long" />
+<constructor-arg value="Sampatia1" />
+<constructor-arg value="Baleswar1" /> 
+</bean>
+<bean class="com.springcore.ci.Employee" name="employee1">
+  
+   <constructor-arg value="202" type="int"/>
+   <constructor-arg value="Bisal1" />
+   <constructor-arg value="2000" type="int" />
+   <constructor-arg value="1998-07-11"/>
+   <constructor-arg value="2022-07-11"/>
+   <constructor-arg ref="address1"/>  
+
+</bean>
+
+<bean class="com.springcore.ci.Employee" name="employee">
+  
+   <constructor-arg value="101" type="int"/>
+   <constructor-arg value="Bisal" />
+   <constructor-arg value="1000" type="int" />
+   <constructor-arg value="1998-07-12"/>
+   <constructor-arg value="2022-07-12"/>
+   <constructor-arg ref="address"/>  
+
+</bean>
+
+</beans>

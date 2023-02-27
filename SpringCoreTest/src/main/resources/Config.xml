@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="employee" class="com.springcore.setterinject.Employee1"> 
+      	<property name = "emp_id" value = "1"/>
+      	<property name = "emp_name" value = "Sujit"/>
+ 		<property name = "salary" value = "100.00"/>
+      	<property name = "doj" value= "17-10-2022"/>
+		 <property name = "dob" value = "11-08-1997"/>
+     	 <property name = "address" ref = "address"/>
+	</bean>
+	
+	<bean id="address" class="com.springcore.setterinject.Address1">
+		 <property name = "house_number" value = "11"/>
+     	 <property name = "street"  value = "M.K.Road"/> 
+		 <property name = "city" value = "Shrirampur"/>
+     </bean>
+</beans>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="invoice1" class="problemstatement3.Invoice">
+        <constructor-arg value="part1"/>
+        <constructor-arg value="description1"/>
+        <constructor-arg value="1"/>
+        <constructor-arg value="10000"/>
+    </bean>
+
+    <bean name="invoice2" class="problemstatement3.Invoice">
+        <constructor-arg value="part2"/>
+        <constructor-arg value="description2"/>
+        <constructor-arg value="2"/>
+        <constructor-arg value="140000"/>
+    </bean>
+
+
+</beans>
+
+

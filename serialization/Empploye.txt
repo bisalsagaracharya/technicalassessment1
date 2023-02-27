@@ -1,1 +1,0 @@
-Employe [id=1, name=Bisal, department=Developer, age=25]

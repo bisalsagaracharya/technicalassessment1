@@ -1,10 +1,0 @@
-
-E
-java:S5411"*Use the primitive boolean expression here.(þþ›àûÿÿÿÿ
-B
-java:S1125"'Remove the unnecessary boolean literal.(þþ›àûÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(þªé¡
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿûªÜ
-V	java:S125"<This block of commented-out lines of code should be removed.(ùÑ½¼ùÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ùëñÌýÿÿÿÿ
-Q	java:S125&"<This block of commented-out lines of code should be removed.(ª³¬
