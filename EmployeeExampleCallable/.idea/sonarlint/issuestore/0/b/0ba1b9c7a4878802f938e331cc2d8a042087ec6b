@@ -1,12 +1,0 @@
-
-_
-java:S2583"CChange this condition so that it does not always evaluate to "true"(òãÊ8æ‰×Ÿå0
-V	java:S125"<This block of commented-out lines of code should be removed.(µ¼åõúÿÿÿÿ
-A
-java:S2114"%Remove or correct this "equals" call.(òãÊ8ê‰×Ÿå0
-a
-java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.(òãÊ8ê‰×Ÿå0
-S	java:S106"9Replace this use of System.out or System.err by a logger.(É–ì¥üÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÂ Áùÿÿÿÿ
-H
-java:S1128"2Remove this unused import 'java.util.Enumeration'.(»îÜ®
