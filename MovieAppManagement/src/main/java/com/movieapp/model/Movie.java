@@ -13,10 +13,12 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
  
@@ -28,32 +30,36 @@ public class Movie implements Cloneable{
 	@Id
 	@GeneratedValue 
   private int id;
-  private String Title;
+  private String title;
   private int yearOfRelease;
   private int genreId;
   
   @ManyToMany(fetch = FetchType.LAZY,cascade = {CascadeType.ALL} )
   @JoinTable(name="Movie_Actors",joinColumns = {@JoinColumn(name="movie_id",referencedColumnName = "id")},inverseJoinColumns = {@JoinColumn(name="actors_id",referencedColumnName = "id")})
-  //@JsonBackReference
-  private List<Actors> actors=new ArrayList<>();
+  //@JsonIdentityReference
+  private List<Actors> actors;
   
-  @OneToOne(cascade = {CascadeType.ALL})
-  @JoinColumn(name="genres_id")
-  private Genres genres;
+  @OneToMany(cascade = {CascadeType.ALL})
+  @JoinColumn(name="id",referencedColumnName = "id")
+  private List<Genres> genres;
 
 public Movie() {
 	super();
 }
 
-public Movie(int id, String title, int yearOfRelease, int genreId, List<Actors> actors, Genres genres) {
+ 
+
+public Movie(int id, String title, int yearOfRelease, int genreId, List<Actors> actors, List<Genres> genres) {
 	super();
 	this.id = id;
-	Title = title;
+	this.title=title;
 	this.yearOfRelease = yearOfRelease;
 	this.genreId = genreId;
 	this.actors = actors;
 	this.genres = genres;
 }
+
+
 
 public int getId() {
 	return id;
@@ -64,11 +70,11 @@ public void setId(int id) {
 }
 
 public String getTitle() {
-	return Title;
+	return title;
 }
 
 public void setTitle(String title) {
-	Title = title;
+	 this.title=title;
 }
 
 public int getYearOfRelease() {
@@ -95,21 +101,24 @@ public void setActors(List<Actors> actors) {
 	this.actors = actors;
 }
 
-public Genres getGenres() {
+ 
+public List<Genres> getGenres() {
 	return genres;
 }
 
-public void setGenres(Genres genres) {
+
+
+public void setGenres(List<Genres> genres) {
 	this.genres = genres;
 }
 
+
+
 @Override
 public String toString() {
-	return "Movie [id=" + id + ", Title=" + Title + ", yearOfRelease=" + yearOfRelease + ", genreId=" + genreId
+	return "Movie [id=" + id + ", Title=" + title + ", yearOfRelease=" + yearOfRelease + ", genreId=" + genreId
 			+ ", actors=" + actors + ", genres=" + genres + "]";
 }
-  
-  
-  
+
   
 }

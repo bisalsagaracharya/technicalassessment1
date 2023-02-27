@@ -13,6 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -31,11 +32,13 @@ public class Actors {
 	private String lastName;
 	private int yearOfBirth;
 	
-	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+	@ManyToMany(fetch  = FetchType.EAGER,cascade = CascadeType.ALL)
 	@JoinTable(name="Actors_Movie",joinColumns = {@JoinColumn(name="actors_id",referencedColumnName = "id")},inverseJoinColumns = {@JoinColumn(name="movie_id",referencedColumnName = "id")})
-	//@JsonBackReference
-	private List<Movie> movies=new ArrayList<>();
-
+//	@JsonIgnore
+	 
+	private List<Movie> movies;
+  
+	 
 	public Actors() {
 		super();
 	}
@@ -47,6 +50,7 @@ public class Actors {
 		this.lastName = lastName;
 		this.yearOfBirth = yearOfBirth;
 		this.movies = movies;
+		 
 	}
 
 	public int getId() {
@@ -88,12 +92,17 @@ public class Actors {
 	public void setMovies(List<Movie> movies) {
 		this.movies = movies;
 	}
+	
+
+	 
 
 	@Override
 	public String toString() {
 		return "Actors [id=" + id + ", name=" + name + ", lastName=" + lastName + ", yearOfBirth=" + yearOfBirth
 				+ ", movies=" + movies + "]";
 	}
+
+	 
 	
     
 }

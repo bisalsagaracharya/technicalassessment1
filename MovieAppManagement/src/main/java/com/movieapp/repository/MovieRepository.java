@@ -8,8 +8,8 @@ import com.movieapp.model.Movie;
 
 @Repository
 public interface MovieRepository extends JpaRepository<Movie,Integer> {
-	@Query("Select movie from Movie movie where movie.Title=?1")
-	Movie findByTitle(String Title);
+	@Query("Select movie from Movie movie where movie.title=?1")
+	Movie findByTitle(String title);
 	
 	
 

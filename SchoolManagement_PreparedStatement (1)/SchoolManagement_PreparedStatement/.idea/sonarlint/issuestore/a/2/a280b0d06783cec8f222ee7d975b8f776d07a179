@@ -1,12 +1,0 @@
-
-V	java:S125"<This block of commented-out lines of code should be removed.(¾Ò‡åùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¦äöûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ô¤«Óıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(õ§¼ºøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(í‹œ­
-B
-java:S1125$"'Remove the unnecessary boolean literal.(…¶áËúÿÿÿÿ
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(÷öÄ¸üÿÿÿÿ
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(“ùŞŸùÿÿÿÿ
-S	java:S106("9Replace this use of System.out or System.err by a logger.(§ñÓÎûÿÿÿÿ
-V	java:S125,"<This block of commented-out lines of code should be removed.(£´¶˜üÿÿÿÿ
